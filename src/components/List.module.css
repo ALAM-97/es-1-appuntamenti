@@ -1,0 +1,43 @@
+.card {
+  width: 40%;
+  margin: auto;
+  background: #222222;
+  padding: 10px;
+  box-shadow: 8px 5px 20px rgb(26, 26, 26);
+}
+
+.buttons {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+.reload {
+  background: rgb(0, 109, 211);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.delete {
+  background: red;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.reload:active {
+  background: #fff;
+  color: rgb(0, 109, 211);
+}
+
+.delete:active {
+  background: #fff;
+  color: red;
+}
